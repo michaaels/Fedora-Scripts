@@ -1,4 +1,6 @@
 #!/bin/bash
+#https://github.com/ValveSoftware/csgo-osx-linux/issues/2659#issuecomment-962417347
+
 sudo mkdir -p /usr/legacy/lib64
 sudo ln -sf /usr/lib64/libtcmalloc_minimal.so.4.5.9 /usr/legacy/lib64/libtcmalloc_minimal.so.0
 cd ~/.local/share/Steam/steamapps/common/Counter-Strike\ Global\ Offensive
